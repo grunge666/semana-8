@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(font/CreatoDisplay-Regular.otf);
+}
+
+html {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: fuente1;
+    font-size: 12px;
+}
+
+p {
+    color: white;
+}
+
+.px {
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto 25px;
+    background-color: rgba(196, 165, 66, 0.7);
+    border: 2px solid rgb(248, 4, 4);
+}
+
+.cuadro-rem {
+    width: 31.25rem;
+    height: 18.75rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(8, 8, 247, 0.7);
+    border: 2px solid rgb(248, 4, 4);
+}
+
+.em {
+    font-size: 16pxpx;
+}
+
+.cuadro-em {
+    width: 31.25rem;
+    height: 18.7rem;
+    padding: 1.2rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(41, 179, 41, 0.7);
+    border: 2px solid rgba(248, 4, 4);
+}
+
+body {
+    
+}
+
+header {
+    background-color: rgb(5, 5, 243);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: bisque;
+    padding: 15px;
+}
+
+nav a {
+    background-color: brown;
+    color: aquamarine;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+/*     background-color: deeppink; */
+    min-height: 100vh;
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+.columnas {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnas .dos {
+    width: 32.5%;
+}
